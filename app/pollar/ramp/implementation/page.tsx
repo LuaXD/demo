@@ -39,6 +39,7 @@ export default function RampPage() {
         <p className="text-sm text-muted mt-1.5">{t.ramp.desc}</p>
       </div>
 
+      <a className="inline-block border rounded p-2" href="/pollar/ramp/stereum-fixture">Test Stereum with local fixtures</a>
       <SdkModalTab
         isAuthenticated={isAuthenticated}
         onOpen={openRampModal}
